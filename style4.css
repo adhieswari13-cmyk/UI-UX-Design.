@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+}
+
+/* Instagram Login Card */
+.instagram-card {
+    background-color: white;
+    border-radius: 1px;
+}
+
+/* Instagram Logo */
+.instagram-logo {
+    font-family: cursive;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+.form-control {
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 11px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #a8a8a8;
+}
+
+/* Login Button */
+.btn-primary {
+    background-color: #0095f6;
+    border-color: #0095f6;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #1877f2;
+    border-color: #1877f2;
+}
+
+/* Facebook Login */
+.facebook-login {
+    color: #385185;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Forgot Password */
+.forgot-password {
+    color: #00376b;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* Sign Up */
+.signup-card {
+    background-color: white;
+    border-radius: 1px;
+}
+
+.signup-link {
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Mobile Responsive */
+@media (max-width: 576px) {
+
+    .container {
+        padding: 0;
+    }
+
+    .instagram-card,
+    .signup-card {
+        border-left: none;
+        border-right: none;
+    }
+
+    .instagram-logo {
+        font-size: 38px;
+    }
+}
